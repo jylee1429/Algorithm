@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int arr[10];
+
+int main(void) {
+	int n, i;
+	int cnt = 0;
+	int right_val = 0, left_val = 0;
+
+	scanf("%d", &n);
+	for (i = 0; n >= 1; i++) {
+		arr[i] = n % 10;
+		n = n / 10;
+		cnt++;
+	}
+
+	for (i = 0; i < (cnt / 2); i++) {
+		right_val += arr[i];
+	}
+
+	for (i = (cnt / 2); i < cnt; i++) {
+		left_val += arr[i];
+	}
+
+	if (right_val == left_val)
+		printf("LUCKY");
+	else
+		printf("READY");
+
+	return 0;
+}
