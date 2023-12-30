@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int graph[201][201];
-int queue[201][2];
+int queue[40001][2];
 int dx[4] = { 1,0,-1,0 };
 int dy[4] = { 0,-1,0,1 };
 
@@ -46,13 +46,7 @@ int main(void) {
 			}
 		}
 	}
-	for (i = 1; i <= n; i++) {
-		for (j = 1; j <= m; j++) {
-			printf("%d ", graph[i][j]);
-		}
-		printf("\n");
-	}
-	printf("\n");
+
 	printf("%d", graph[n][m]);
 
 	return 0;
