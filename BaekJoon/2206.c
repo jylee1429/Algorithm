@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 #define SIZE 1001
 
-using namespace std;
+using namespace std;  
 
 int n, m;
 int graph[SIZE][SIZE];
