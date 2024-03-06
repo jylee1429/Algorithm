@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 #define SIZE 1001
-
+ 
 using namespace std;
 
 int n, m;
