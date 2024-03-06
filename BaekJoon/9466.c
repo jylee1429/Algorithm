@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #define SIZE 100001
 
-using namespace std;
+using namespace std; 
 
 int t;
 int cnt = 0;
