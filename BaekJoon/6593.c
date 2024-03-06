@@ -2,7 +2,7 @@
 
 using namespace std;
 
-typedef struct _array {
+typedef struct _array { 
 	char arr[31][31];
 }Arr;
 typedef struct _array_int_ {
